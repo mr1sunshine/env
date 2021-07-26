@@ -1,0 +1,28 @@
+[alias]
+        co = checkout
+        s = status
+        a = add
+        l = log
+        cno = commit --amend --no-edit
+        rc = rebase --continue
+        c = commit
+        p = push
+        r = rebase
+[user]
+        name = Aleksandr Ovchinnikov
+        email = mail@mr1sunshine.com
+[core]
+        autocrlf = input
+        editor = code --wait
+[pull]
+        rebase = true
+[commit]
+        gpgsign = true
+[push]
+        followTags = true
+[branch]
+        sort = -committerdate
+[color]
+        diff   = auto
+        status = auto
+        branch = auto

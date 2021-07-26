@@ -1,0 +1,70 @@
+# VS Code Extensions
+
+Copy-paste following to terminal:
+
+```bash
+EXTENSIONS=(
+    aaron-bond.better-comments
+    albert.TabOut
+    alexkrechik.cucumberautocomplete
+    BazelBuild.vscode-bazel
+    bierner.github-markdown-preview
+    bierner.markdown-checkbox
+    bierner.markdown-emoji
+    bierner.markdown-preview-github-styles
+    bierner.markdown-yaml-preamble
+    bungcip.better-toml
+    cheshirekow.cmake-format
+    cliffordfajardo.highlight-line-vscode
+    codezombiech.gitignore
+    CoenraadS.bracket-pair-colorizer-2
+    DavidAnson.vscode-markdownlint
+    dbaeumer.vscode-eslint
+    donjayamanne.githistory
+    DotJoshJohnson.xml
+    dustypomerleau.yarra-valley
+    eamodio.gitlens
+    EditorConfig.EditorConfig
+    Equinusocio.vsc-community-material-theme
+    Equinusocio.vsc-material-theme
+    equinusocio.vsc-material-theme-icons
+    esbenp.prettier-vscode
+    flowtype.flow-for-vscode
+    GitHub.github-vscode-theme
+    GitHub.vscode-pull-request-github
+    jeff-hykin.better-cpp-syntax
+    liviuschera.noctis
+    lucax88x.codeacejumper
+    marlon407.code-groovy
+    mathiasfrohlich.Kotlin
+    matklad.rust-analyzer
+    ms-azuretools.vscode-docker
+    ms-python.python
+    ms-python.vscode-pylance
+    ms-toolsai.jupyter
+    ms-vscode.cmake-tools
+    ms-vscode.cpptools
+    ms-vsliveshare.vsliveshare
+    oderwat.indent-rainbow
+    patbenatar.advanced-new-file
+    PolyMeilex.wgsl
+    redhat.java
+    rust-lang.rust
+    serayuzgur.crates
+    sirmspencer.vscode-autohide
+    slevesque.shader
+    streetsidesoftware.code-spell-checker
+    twxs.cmake
+    vadimcn.vscode-lldb
+    vscode-icons-team.vscode-icons
+    webfreak.debug
+    xaver.clang-format
+    ybaumes.highlight-trailing-white-spaces
+    zhuangtongfa.material-theme
+    znck.grammarly
+    zxh404.vscode-proto3
+)
+for EXTENSION in ${EXTENSIONS[@]}; do
+    code --install-extension $EXTENSION
+done
+```
